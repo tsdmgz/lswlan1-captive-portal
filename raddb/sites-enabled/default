@@ -387,7 +387,6 @@ authorize {
 	#
 	expiration
 	logintime
-
 	#
 	#  If no other module has claimed responsibility for
 	#  authentication, then try to use PAP.  This allows the
@@ -401,7 +400,7 @@ authorize {
 	#
 	pap
 
-	#
+#
 	#  If "status_server = yes", then Status-Server messages are passed
 	#  through the following section, and ONLY the following section.
 	#  This permits you to do DB queries, for example.  If the modules
@@ -507,12 +506,7 @@ authenticate {
 #			handled  # override the "updated" code from attr_filter
 #		}
 #	}
-}
-
-authorize {
-	update control {
-		Auth-Type := `/usr/bin/sh /bin/auth.sh '%{User-Name}' '%{User-Password}'`
-	}
+	
 }
 
 
@@ -638,6 +632,8 @@ accounting {
 	#
 	#  See "Autz-Type Status-Server" for how this works.
 	#
+
+	
 #	Acct-Type Status-Server {
 #
 #	}
