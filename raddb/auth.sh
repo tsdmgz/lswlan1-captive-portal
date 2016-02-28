@@ -11,9 +11,9 @@ curl --data "userName=$id_number&password=$password&submit=Sign+in&command=login
 #If grep does not find the string, then do
 if [ $? -eq 1 ] #not found
 then
-	echo -n "Reject" #String was not found, and must have successfully logged in
+	echo -n "Reject" #String was not found, did not log in successfully
 else
-	echo -n "Accept" #String was found, was probably given invalid credentials
+	echo -n "Accept" #String was found, login successful
 fi
 ~
 #FreeRADIUS expects Reject or Accept as output.
