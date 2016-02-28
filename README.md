@@ -26,11 +26,12 @@ repository.
 * iptables
 
 # Client settings
-SSID: LSWLAN1-EAP
-Encryption: WPA2-Enterprise or 802.1x
-Encapsulation: TTLS
-Second layer: PAP
-Identity/Username: AISIS username
+
+SSID: LSWLAN1-EAP\
+Encryption: WPA2-Enterprise or 802.1x\
+Encapsulation: TTLS\
+Second layer: PAP\
+Identity/Username: AISIS username\
 Password: AISIS password
 
 # Specifics
