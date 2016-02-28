@@ -27,12 +27,12 @@ repository.
 
 # Client settings
 
-SSID: LSWLAN1-EAP\
-Encryption: WPA2-Enterprise or 802.1x\
-Encapsulation: TTLS\
-Second layer: PAP\
-Identity/Username: AISIS username\
-Password: AISIS password
+* SSID: LSWLAN1-EAP
+* Encryption: WPA2-Enterprise or 802.1x
+* Encapsulation: TTLS
+* Second layer: PAP
+* Identity/Username: AISIS username
+* Password: AISIS password
 
 # Specifics
 
@@ -48,16 +48,16 @@ send the credentials to AISIS itself for verification.
 ## Unsupported platforms
 
 * Windows Phone 8 (possibly WP7)
-* Windows Mobile =< 6
+* Windows Mobile <= 6
 * Maemo 5 (/sad)
-* BBos has not been tested
 
 ## Tested platforms
 
-* Windows > 8 desktop
-* Android > 4.4
+* Windows >= 8 desktop
+* Android >= 4.4
 
 ## Not tested
 
 * OS X
 * Linux (it *should* work)
+* BBos
